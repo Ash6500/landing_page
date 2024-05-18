@@ -1,0 +1,141 @@
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
+
+.logo-text{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo-img{
+    height: 40px;
+    width: 40px;
+    margin-right: 10px;
+}
+
+.nav-links{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links a{
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover{
+    color: #ddd;
+}
+
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    background-color: #1F2937;
+    height: calc(100vh-60px);
+}
+
+.hero-content{
+    max-width: 600px;
+    text-align: left;
+    margin-right: 20px;
+}
+
+.hero-content h1{
+    font-size: 48px;
+    font-weight: bold;
+    color: #F9FAF8;
+    margin-bottom: 20px;
+}
+
+.hero-content p{
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #F9FAF8;
+}
+
+.hero-button{
+    padding: 10px 20px;
+    background-color: #3882F6;
+    color: #E5E7EB;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.hero-button:hover{
+    background-color: #447ac0;
+}
+
+.hero-image img{
+    max-width: 100%;
+    height: auto;
+}
+
+.content-section{
+    align-items: center;
+}
+
+.content-section h5{
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    color: #1F2937;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.content img{
+    width: 200px;
+    height: 200px;
+    object-fit: fill;
+    border: 4px solid  #3882F6;
+    border-radius: 15px;
+    margin: 5px 20px 0px 20px;
+}
+
+.card-body{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 20px;
+}
+
+.card-header{
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px 0 0 0;
+}
+
+.card-text{
+    font-size: 15px;
+    font-weight: lighter;
+    color: #666;
+}
